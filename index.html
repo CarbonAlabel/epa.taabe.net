@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html ng-app="epa">
+<head>
+	<meta charset="UTF-8">
+	<title>Eternal Pretorian Alliance</title>
+	<meta name="description" content="An online memorial for the Eternal Pretorian Alliance, a dead player alliance in the MMO EVE Online.">
+	<link rel="icon" href="logo/black32.png">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-animate.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-aria.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.5/angular-material.min.js"></script>
+	<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/angular_material/1.0.5/angular-material.min.css">
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+	<style>
+	html{
+		background-color:black;}
+	body,md-content{
+		background-color:transparent;}
+	#bgImage{
+		position:fixed;
+		z-index:-99;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		background:center/cover no-repeat;
+		transition:opacity 200ms,background-image 200ms;
+		opacity:0.3;}
+	.logoToolbar{
+		width:120px;
+		height:120px;}
+	</style>
+	<script>
+	var app=angular.module("epa",["ngMaterial"]);
+	app.config(function($mdThemingProvider){$mdThemingProvider.theme("default").primaryPalette("blue-grey").accentPalette("deep-orange").warnPalette("red");});
+	</script>
+</head>
+<body>
+<div id="bgImage" style="background-image:url('res/img/stratios.jpg');"></div>
+<md-toolbar class="md-tall" layout="row" layout-align="start center">
+	<img src="logo/lightTop.svg" class="logoToolbar" style="margin-left:16px;">
+</md-toolbar>
+<md-content style="padding:0 10%;">
+	<md-card>
+		<img src="res/img/wrecks.jpg" class="md-card-image" alt="Wrecks">
+		<md-card-content>
+			<h2 class="md-title">Looking for the Eternal Pretorian Alliance?</h2>
+			<p>
+				You're too late.
+			</p>
+		</md-card-content>
+		<div class="md-actions" layout="row" layout-align="end end">
+			<md-button href="http://evemaps.dotlan.net/corp/The%20Alabaster%20Albatross">Try TAABE</md-button>
+		</div>
+	</md-card>
+	<md-card>
+		<img src="res/img/disbanded.png" class="md-card-image" alt="EPA disbanded" style="image-rendering:pixelated;">
+		<md-card-content>
+			<h2 class="md-title">EPA has disbanded</h2>
+			<p>
+				Yep. That's it.
+			</p>
+		</md-card-content><div class="md-actions" layout="row" layout-align="end end">
+			<md-button href="https://gate.eveonline.com/Profile/Destron%20Aurilen">Blame Destron</md-button>
+			<md-button href="http://evemaps.dotlan.net/alliance/99000151">See for yourself</md-button>
+		</div>
+	</md-card>
+	<md-card>
+		<img src="res/img/paladin.jpg" class="md-card-image" alt="Tristan">
+		<md-card-content>
+			<h2 class="md-title">Comments from our (ex-)members</h2>
+			<ul>
+				<li>die you soab die<br> - <strong>Destron Aurilen</strong></li>
+				<li>Destron made me Head Diplo, then we failscaded.<br> - <strong>Maheel D'Yvettes</strong></li>
+				<li>The bitch is dead.<br> - <strong>Murkar Omaristos</strong></li>
+				<li>It has been dead for ages. We are the parasites that have been living in it's dead rotting body. Half of our members don't even play eve.<br> - <strong>Gabriel Mernher</strong></li>
+				<li>I'm glad we're going back to Provi.<br> - <strong>Carbon Alabel</strong></li>
+			</ul>
+		</md-card-content>
+	</md-card>
+	<md-card>
+		<img src="res/img/apocalypse.jpg" class="md-card-image" alt="Apocalypse">
+		<md-card-content>
+			<h2 class="md-title">EPA going into hibernation</h2>
+			<p>
+				As you may or may not already know, EPA is <em>disbanding</em>.
+			</p>
+			<p>
+				As none of us can be bothered to run an alliance, but we somewhat like the logo, ticker and name we currently have, we are going to keep the alliance alive using a holder corp, while the corporations which are currently our members are either already dead, or are in the process of joining another alliance, looking for one or are planning to set out on their own.
+			</p>
+			<p>
+				If you are looking for more details, please refer to the following two mails:
+			</p>
+			<p>
+				<a href="txt/murkar.txt">The Future!<br>From: Murkar Omaristos<br>Sent: 2015.10.11 02:04<br>To: The Alabaster Albatross</a>
+			</p>
+			<p>
+				<a href="txt/destron.txt">Saddens me to say<br>From: Destron Aurilen<br>Sent: 2015.10.12 14:31<br>To: Eternal Pretorian Alliance</a>
+			</p>
+		</md-card-content>
+	</md-card>
+	<md-card>
+		<img src="res/img/gtx460.png" class="md-card-image" alt="GTX 460">
+		<md-card-content>
+			<h2 class="md-title">Carbon's NVIDIA GeForce GTX 460</h2>
+			<p>
+				RIP 2011-2015
+			</p>
+		</md-card-content>
+		<div class="md-actions" layout="row" layout-align="end end">
+			<md-button href="https://www.reddit.com/r/Eve/comments/3mkzm8/rip_gtx_460/">Pay respects</md-button>
+		</div>
+	</md-card>
+</md-content>
+<footer></footer>
+</body>
+</html>

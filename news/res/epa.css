@@ -1,0 +1,94 @@
+html{
+	background-color:#111;
+	background-image:url("tcu.png");
+	background-repeat:no-repeat;
+    background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+	color:white;
+	font-family:"Roboto Condensed",sans-serif;}
+a{
+	color:orange;
+	font-weight:bold;
+	text-decoration:none;
+	transition:color 200ms;}
+a:hover{
+	color:purple;}
+img{
+	max-width:100%;}
+hr{
+	display:none;
+	page-break-after:avoid;}
+header{
+	height:8em;
+	min-width:50em;
+	width:100%;}
+header img{
+	height:8em;
+	float:left;}
+header h1{
+	margin:0;
+	font:6em Orbitron;}
+h2{
+	margin:0;
+	text-decoration:underline;}
+h3{
+	margin:0;}
+h3+p,h3+figure+p{
+	margin-top:0;}
+blockquote{
+	font-family:"Roboto Slab",serif;
+	margin:1em;}
+code{
+	display:block;
+	font-family:"Ubuntu Mono",monospace;
+	font-size:smaller;
+	margin:1em;
+	white-space:pre-wrap;}
+code.fit{
+	border:1px solid #BBB;
+	padding:0 1em;
+	height:12em;
+	overflow-x:hidden;
+	overflow-y:scroll;}
+code.chat{
+	border:1px solid #BBB;
+	padding:0 1em;
+	height:24em;
+	overflow-x:hidden;
+	overflow-y:scroll;}
+nav, article{
+	max-width:45em;
+	margin:1em auto;}
+nav ol{
+	list-style-type:upper-roman;}
+nav ul{
+	list-style-type:square;}
+.fl{
+	max-width:50%;
+	float:left;
+	margin:0 1em 0 0;}
+.fr{
+	max-width:50%;
+	float:right;
+	margin:0 0 0 1em;}
+.fw{
+	max-width:100%;
+	margin:0;
+	text-align:center;}
+p.corp{
+	clear:both;}
+p.corp img{
+	height:3em;
+	float:left;
+	margin-right:0.5em;}
+article footer, article figure figcaption{
+	color:#BBB;
+	font-size:smaller;}
+article footer strong{
+	color:orange;}
+article footer a{
+	display:block;
+	color:purple;
+	float:right;
+	font-size:smaller;}
