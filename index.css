@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("res/img/stratios.jpg") center/cover;
+    opacity: 0.5;
+}
+
+header img {
+    display: block;
+    margin: 0 16px;
+    width: 120px;
+    height: 120px;
+}
+
+.mdl-card {
+    width: auto;
+    max-width: 80em;
+    margin: 16px auto;
+}
+
+.mdl-card img {
+    display: block;
+    width: 100%;
+}
+
+.mdl-card section {
+    margin: 8px 16px 0;
+}
+
+.mdl-card section>* {
+    margin: 0 0 8px;
+}
+
+.mdl-card nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 8px 8px;
+}
+
+.mdl-card h2 {
+    font-size: 1.5em;
+}
